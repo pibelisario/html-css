@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 5px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(92, 98, 103);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.536);
+
+        }
+
+        h1{
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.536);
+        }
+
+        a{
+            color: white;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 20px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.536);
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(157, 181, 181);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga minus atque quasi expedita dolore?
+                    Nesciunt sapiente laborum delectus recusandae. Voluptatibus necessitatibus exercitationem atque
+                    consectetur consequuntur inventore aut at obcaecati! Provident sit ducimus, magni eos libero ab
+                    minima animi earum quo corrupti molestias laborum hic, voluptate labore quidem fuga perspiciatis
+                    voluptatem.</p>
+                <aside>Aritco escrito por Paulo</aside>
+
+            </article>
+        </section>
+        <article>
+            <section id="assuntos">
+                <article>
+                    <h2>Esportes Política</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores id veritatis voluptatibus a
+                        repudiandae. Reprehenderit ab eligendi iste dolorem aspernatur quo provident tenetur architecto
+                        ipsum numquam id fugiat molestiae vel, obcaecati iure neque illo laudantium consectetur omnis
+                        ipsam. Tempora quia officia recusandae officiis nostrum aspernatur libero quis in qui sit.</p>
+                        <aside>Artigo de Vitor</aside>
+                </article>
+            </section>
+        </article>
+    </main>
+    <footer>Desenvolvido por Paulo INácio</footer>
+
+</body>
+
+</html>
