@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+
+    <form action="cadastro.html" method="get">
+       
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" id="inome" name="nome" maxlength="30" placeholder="Nome completo" autocomplete="name" required>
+        </p>
+
+        <p>
+            <label for="imedia">Média:</label>
+            <input type="number" id="imedia" nome="media" min="0.0" max="10" step="0.1" value="0" required>
+        </p>
+
+        <p>
+            <label for="iperiodo">Período letivo</label>
+            <input type="month" id="iperiodo" name="periodo" value="2023-01" required >
+        </p>
+
+        <p>
+            <label for="idata">Dia da Prova</label>
+            <input type="date" name="date" id="idate" value="2023-01-11">
+        </p>
+
+        <p>
+            <label for="ihora">Hora:</label>
+            <input type="time" name="hora" id="ihora" value="16:33">
+        </p>
+
+        <p>
+            <input type="submit" value="Salvar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
